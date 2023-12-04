@@ -1,0 +1,51 @@
+{
+  "vue starter component": {
+    "prefix": "vts",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "/**",
+      " * @author ${1:Dev.Name}",
+      " */",
+      "",
+      "// $2",
+      "</script>",
+      "",
+      "<template>",
+      "  <section>",
+      "    $3",
+      "  </section>",
+      "</template>",
+      "",
+      "<style lang=\"scss\"></style>"
+    ],
+    "description": "vue starter component"
+  },
+  "Vue composition api setup": {
+    "prefix": "vcompos",
+    "body": [
+      "<template>",
+      "    <section class=\"${1:card}\">",
+      "     ${2}",
+      "    </section>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "  setup () {",
+      "     $3",
+      "",
+      "        return {}",
+      "    }",
+      "})",
+      "</script>"
+    ],
+    "description": "Vue composition api setup"
+  },
+  "v-icon": {
+    "prefix": "vicon",
+    "body": ["<v-icon name=\"${1:like}\" />"],
+    "description": "v-icon global component"
+  }
+}
